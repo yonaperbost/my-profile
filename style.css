@@ -1,0 +1,146 @@
+h1	{
+	color: white;
+	font-size: 30px;
+}
+
+Body {
+	background-color: whitesmoke;
+}
+
+a	{
+	text-decoration: none;
+	color: indianred;
+}
+
+h1	{
+	font-family: 'Poppins', sans-serif;
+}
+
+p,a {
+	font-family: 'Lora', serif;
+}
+
+p	{
+	color: white;
+}
+
+#text-profile {
+	color: lightgray;
+}
+
+li 	{
+	list-style: none ;
+	font-size: 40px;
+	display: inline;
+	margin: 12px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+ img {
+ 	width: 140px;
+ 	height: 140px ;
+ 	border-radius: 50%;
+ }
+
+
+.btn-green {
+	background-color: whitesmoke;
+	color:black ;
+	padding: 12px 24px;
+	border-radius: 8px;
+	margin: 18px;
+}
+
+.btn-green:hover	{
+	background-color:rgb(230, 72, 72) ;
+	color: floralwhite;
+	transition : 0.5s;
+}
+
+#link-follow:hover	{
+	background-color: ;
+}
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-beige {
+	border-width: thick;
+	border: rgb(250, 112, 112);
+	background-color: white;
+	border-radius: 8px ;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 30px ;
+	padding:30px ;
+	text-align: center;
+}
+
+
+#card-profile {
+	background-color: black;
+}
+
+#card-cinema {
+	background-image: url("images/backgroundcinéma.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+#card-travel {
+	background-image: url("images/backgroundtravel.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+#card-fashion {
+	background-image: url("images/backgroundfashion.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+
+#card-follow {
+	background-image: url("images/backgroundfollow.jpg");
+	color : white;
+	background-siez:  cover;
+	background-position: center;
+}
+
+
+/*media queries*/
+
+
+@media(max-width:  1100px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width:  800px) {
+	.container {
+		width: 450px;
+	}
+}
+
+
+@media (max-width:  500px) {
+	.container {
+		width: 380px;
+	}
+}
+
+
+
+
+
+
